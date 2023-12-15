@@ -17,9 +17,7 @@ In this project I implement an intelligent system for detecting seizures in epil
 - Time Domain Features: Peek to Peek(PTP), AASS, Singular Spectrum Analysis(SSA), Log Detect, Zero Crossings(ZC)
 - Statistical Features: Mean, Median, Percentile, Standard Derivation(STD), Histogram
 - Entropy Features: Sample Entropy, Approximate Entropy, Spectral Entropy, Permutation Entropy, Singular Value Decomposition Entropy(SVD)
-
-**Documentation:**
-- Detailed documentation for each feature is available in the `reports/feature_extraction.pdf` folder.
+Detailed documentation for each feature is available in the `reports/feature_extraction.pdf` folder.
 
 #### 1.3 Signal Classification
 - Implement three classification algorithms: SVM, Random Forest, KNN

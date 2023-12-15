@@ -35,7 +35,7 @@ The goal is to evaluate how different each feature is from the others. This is a
 
 #### 2.3 Feature Selection
 The results from the independent evaluation and distinctiveness analysis are combined using a specific calculation:
-score = \frac{1}{\text{normalized correlation} \times \text{accuracy}} \div \left(\frac{1}{\text{normalized correlation}} + \text{accuracy}\right)
+\[ \text{score} = \frac{1}{\text{normalized correlation} \times \text{accuracy}} \div \left(\frac{1}{\text{normalized correlation}} + \text{accuracy}\right) \]
 Features with higher scores are selected for further stages in the project. 
 For a more detailed understanding, refer to the documentation provided in the `reports/feature_selection.pdf` folder.
 

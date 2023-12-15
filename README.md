@@ -35,7 +35,9 @@ The goal is to evaluate how different each feature is from the others. This is a
 
 #### 2.3 Feature Selection
 The results from the independent evaluation and distinctiveness analysis are combined using a specific calculation:
+
 ![image](https://github.com/negjafari/EEG-Seizure-Detection/assets/59292708/6850785d-efad-4a6a-ac78-55ff0c627ed1)
+
 Features with higher scores are selected for further stages in the project. 
 For a more detailed understanding, refer to the documentation provided in the `reports/feature_selection.pdf` folder.
 

@@ -49,5 +49,13 @@ K-Means, a centroid-based algorithm, is chosen for clustering due to its ability
 To comprehensively assess the algorithm's performance, evaluations are conducted with different class modes. This includes creating a three-class mode initially and testing the algorithm's performance. Subsequently, three two-class modes are created, and the algorithm is tested on each.
 For a more in-depth understanding of the evaluation processes, refer to the detailed document provided in the `reports/ evaluation_with_different_classes` folder.
 
+## Dataset
+The dataset used in this project comprises signal segments collected from a device with a sampling frequency of 1.2 Hz. Each signal segment has a duration of 1.5 seconds, resulting in an input file containing 497 data points for each segment.
+Data files are classified into five different groups. Each group represents a distinct category relevant to the seizure detection task. 
+more details about the project is available in link below 
+https://www.upf.edu/web/ntsa/downloads/-/asset_publisher/xvT6E4pczrBw/content/2001-indications-of-nonlinear-deterministic-and-finite-dimensional-structures-in-time-series-of-brain-electrical-activity-dependence-on-recording-regi?inheritRedirect=false&redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fntsa%2Fdownloads%3Fp_p_id%3D101_INSTANCE_xvT6E4pczrBw%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1
+
+
+
 
 

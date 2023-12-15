@@ -34,12 +34,13 @@ The goal is to evaluate how different each feature is from the others. This is a
 
 #### 2.3 Feature Selection
 The results from the independent evaluation and distinctiveness analysis are combined using a specific calculation:
-score = (1 / normalized correlation * accuracy) / (1 / normalized correlation + accuracy)
+score = \frac{1}{\text{normalized correlation} \times \text{accuracy}} \div \left(\frac{1}{\text{normalized correlation}} + \text{accuracy}\right)
 Features with higher scores are selected for further stages in the project. 
 For a more detailed understanding, refer to the documentation provided in the `reports/feature_selection.pdf` folder.
 
 #### 2.4 Clustering for Accuracy Enhancement 
-In this stage, the focus is on enhancing the accuracy and speed of the model through clustering. The dataset is partitioned into different parts using a clustering algorithm. The previously trained system is then applied separately to each part during testing. This results in a unique system for diagnosing seizures.
+In this stage, the focus is on enhancing the accuracy and speed of the model through clustering.
+The dataset is partitioned into different parts using a clustering algorithm. The previously trained system is then applied separately to each part during testing. This results in a unique system for diagnosing seizures.
 
 K-Means, a centroid-based algorithm, is chosen for clustering due to its ability to minimize the variance of data points within a cluster.
 

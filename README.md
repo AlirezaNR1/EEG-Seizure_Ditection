@@ -17,6 +17,8 @@ In this project I implement an intelligent system for detecting seizures in epil
 - Time Domain Features: Peek to Peek(PTP), AASS, Singular Spectrum Analysis(SSA), Log Detect, Zero Crossings(ZC)
 - Statistical Features: Mean, Median, Percentile, Standard Derivation(STD), Histogram
 - Entropy Features: Sample Entropy, Approximate Entropy, Spectral Entropy, Permutation Entropy, Singular Value Decomposition Entropy(SVD)
+  A library is used in calculating entropies, link to the github repository is provided below:
+  [github](https://github.com/raphaelvallat/antropy)
 Detailed documentation for each feature is available in the `reports/feature_extraction.pdf` folder.
 
 #### 1.3 Signal Classification
@@ -52,9 +54,4 @@ For a more in-depth understanding of the evaluation processes, refer to the deta
 The dataset used in this project comprises signal segments collected from a device with a sampling frequency of 1.2 Hz. Each signal segment has a duration of 1.5 seconds, resulting in an input file containing 497 data points for each segment.
 Data files are classified into five different groups. Each group represents a distinct category relevant to the seizure detection task. 
 more details about the project is available in link below 
-https://www.upf.edu/web/ntsa/downloads/-/asset_publisher/xvT6E4pczrBw/content/2001-indications-of-nonlinear-deterministic-and-finite-dimensional-structures-in-time-series-of-brain-electrical-activity-dependence-on-recording-regi?inheritRedirect=false&redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fntsa%2Fdownloads%3Fp_p_id%3D101_INSTANCE_xvT6E4pczrBw%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1
-
-
-
-
-
+[dataset](https://www.upf.edu/web/ntsa/downloads/-/asset_publisher/xvT6E4pczrBw/content/2001-indications-of-nonlinear-deterministic-and-finite-dimensional-structures-in-time-series-of-brain-electrical-activity-dependence-on-recording-regi?inheritRedirect=false&redirect=https%3A%2F%2Fwww.upf.edu%2Fweb%2Fntsa%2Fdownloads%3Fp_p_id%3D101_INSTANCE_xvT6E4pczrBw%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1)
